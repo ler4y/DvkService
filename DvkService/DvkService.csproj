@@ -203,6 +203,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\EmailModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -255,6 +256,8 @@
     <Content Include="Content\Images\icon-contact-globe.png" />
     <Content Include="Content\Images\icon-contact-name%402x.png" />
     <Content Include="Content\Images\icon-contact-name.png" />
+    <Content Include="Content\Images\icon-contact-phone.png" />
+    <Content Include="Content\Images\icon-contact-phone%402x.png" />
     <Content Include="Content\Images\icon-contact-pencil%402x.png" />
     <Content Include="Content\Images\icon-contact-pencil.png" />
     <Content Include="Content\Images\icon-cpu%402x.png" />
@@ -357,6 +360,7 @@
     <Content Include="Service References\Application Insights\ConnectedService.json" />
     <Content Include="Views\Home\Services.cshtml" />
     <Content Include="Views\Home\Gallery.cshtml" />
+    <Content Include="Views\Home\Sent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

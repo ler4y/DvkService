@@ -606,29 +606,35 @@ form input[type="submit"] {
 .contact-form {
   margin-bottom: 50px; }
   .contact-form #name {
-    background-image: url("images/icon-contact-name.png"); }
+    background-image: url("~/Content/Images/icon-contact-name.png"); }
     @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
       .contact-form #name {
-        background-image: url("images/icon-contact-name@2x.png");
+        background-image: url("~/Content/Images/icon-contact-name@2x.png");
         background-size: 38px 19px; } }
   .contact-form #email {
-    background-image: url("images/icon-contact-email.png"); }
+    background-image: url("~/Content/Images/icon-contact-email.png"); }
     @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
       .contact-form #email {
-        background-image: url("images/icon-contact-email@2x.png");
+        background-image: url("~/Content/Images/icon-contact-email@2x.png");
+        background-size: 36px 19px; } }
+    .contact-form #phone {
+    background-image: url("~/Content/Images/icon-contact-phone.png"); }
+    @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+      .contact-form #phone {
+        background-image: url("~/Content/Images/icon-contact-phone@2x.png");
         background-size: 36px 19px; } }
   .contact-form #website {
-    background-image: url("images/icon-contact-globe.png"); }
+    background-image: url("~/Content/Images/icon-contact-globe.png"); }
     @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
       .contact-form #website {
-        background-image: url("images/icon-contact-globe@2x.png");
+        background-image: url("~/Content/Images/icon-contact-globe@2x.png");
         background-size: 36px 19px; } }
   .contact-form #message {
-    background-image: url("images/icon-contact-pencil.png");
+    background-image: url("~/Content/Images/icon-contact-pencil.png");
     min-height: 200px; }
     @media all and (-webkit-min-device-pixel-ratio: 1.5), all and (-o-min-device-pixel-ratio: 3 / 2), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
       .contact-form #message {
-        background-image: url("images/icon-contact-pencil@2x.png");
+        background-image: url("~/Content/Images/icon-contact-pencil@2x.png");
         background-size: 36px 19px; } }
 
 .map {
