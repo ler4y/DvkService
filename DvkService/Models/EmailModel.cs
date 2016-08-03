@@ -12,7 +12,7 @@ namespace DvkService.Models
         public string FromName { get; set; }
         [Required, Display(Name = "Ваш email"), EmailAddress]
         public string FromEmail { get; set; }
-        [Required, Display(Name = "Ваш телефон"), EmailAddress]
+        [Required, Display(Name = "Ваш телефон"), Phone]
         public string PhoneNumber { get; set; }
         [Required]
         public string Message { get; set; }

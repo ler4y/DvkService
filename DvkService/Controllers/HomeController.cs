@@ -15,9 +15,16 @@ namespace DvkService.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "О нас";
 
             return View();
+        }
+
+        public ActionResult Contact()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View(new EmailModel());
         }
 
         [HttpPost]
@@ -46,10 +53,10 @@ namespace DvkService.Controllers
                     smtp.Port = 587;
                     smtp.EnableSsl = true;
                     await smtp.SendMailAsync(message);
-                    return RedirectToAction("Sent" , model.FromName);
+                    return View("Sent", (object)model.FromName);
                 }
             }
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Контакты";
             return View(model);
         }
 
@@ -62,14 +69,14 @@ namespace DvkService.Controllers
 
         public ActionResult Services()
         {
-            ViewBag.Message = "Your services page.";
+            ViewBag.Message = "Сервисы";
 
             return View();
         }
 
         public ActionResult Gallery()
         {
-            ViewBag.Message = "Your gallery page.";
+            ViewBag.Message = "Галерея";
 
             return View();
         }

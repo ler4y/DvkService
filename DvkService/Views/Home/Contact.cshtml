@@ -12,7 +12,7 @@
                     @using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { @class = "contact-form" }))
                     {
                         @Html.AntiForgeryToken()
-                        <h4>Send your comments.</h4>
+                        <h4>Отправьте своё сообщение</h4>
                         <hr />
 
                                 @Html.TextBoxFor(m => m.FromName, new { id = "name", placeholder = "Имя..." })
@@ -26,6 +26,10 @@
 
                                 @Html.TextAreaFor(m => m.Message, new { id = "message", placeholder = "Сообщение..." })
                                 @Html.ValidationMessageFor(m => m.Message)
+
+                        <div class="text-right">
+                            <input type="submit" value="Send message">
+                        </div>
                     }
 
                     
